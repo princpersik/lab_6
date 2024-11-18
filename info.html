@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Хелена Бонем Картер</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Мой Кинопроект</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="info.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="films.html">Фильмы</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Хелена Бонем Картер</h1>
+
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" class="active"></li>
+                <li data-target="#carousel"></li>
+                <li data-target="#carousel"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="фото_1.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="фото_2.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="фото_3.jpg" class="d-block w-100">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="sr-only">Назад</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only">Вперёд</span>
+            </a>
+        </div>
+
+        <section id="films">
+            <h2>Фильмы</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="бойцовский клуб.jpg" class="card-img-top" alt="Бойцовский клуб">
+                        <div class="card-body">
+                            <h5 class="card-title">Бойцовский клуб / Fight Club (1999)</h5>
+                            <p class="card-text">Сотрудник страховой компании страдает хронической бессонницей и отчаянно пытается вырваться из мучительно скучной жизни. Однажды в очередной командировке он встречает некоего Тайлера Дёрдена — харизматического торговца мылом с извращенной философией. Тайлер уверен, что самосовершенствование — удел слабых, а единственное, ради чего стоит жить — саморазрушение. Проходит немного времени, и вот уже новые друзья лупят друг друга почем зря на стоянке перед баром, и очищающий мордобой доставляет им высшее блаженство. Приобщая других мужчин к простым радостям физической жестокости, они основывают тайный Бойцовский клуб, который начинает пользоваться невероятной популярностью.</p>
+                            <a href="https://www.kinopoisk.ru/film/5105855/" class="btn btn-primary">Смотреть на Кинопоиск</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="гарри поттер.jpg" class="card-img-top" alt="Гарри Поттер">
+                        <div class="card-body">
+                            <h5 class="card-title">Гарри Поттер и Орден Феникса / Harry Potter (2007)</h5>
+                            <p class="card-text">Гарри проводит свой пятый год в школе Хогвартс и обнаруживает, что многие из членов волшебного сообщества отрицают факт недавнего состязания юного волшебника с воплощением вселенского зла Волдемортом. Все делают вид, что не имеют ни малейшего представления, что злодей вернулся. Однако впереди волшебников ждет необычная схватка.</p>
+                            <a href="https://www.kinopoisk.ru/film/48356/" class="btn btn-primary">Смотреть на Кинопоиск</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="одна жизнь.jpg" class="card-img-top" alt="Одна жизнь">
+                        <div class="card-body">
+                            <h5 class="card-title">Одна жизнь / One Life (2023)</h5>
+                            <p class="card-text">Скромного и непубличного джентльмена Николаса Уинтона приглашают на телевизионное ток-шоу, где он наконец-то узнает всю правду о событиях Второй мировой войны, когда он пытался спасти сотни детей от гибели в концлагере. Одна жизнь может изменить судьбы сотен людей — как в прошлом, так и в настоящем.</p>
+                            <a href="https://www.kinopoisk.ru/film/5105855/" class="btn btn-primary">Смотреть на Кинопоиск</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <h2 class="mt-5" id="actorInfoLink">Об актёре</h2>
+        <button class="btn btn-primary" data-toggle="collapse" data-target="#actorInfoContent">
+            Показать информацию
+        </button>
+        <div id="actorInfoContent" class="collapse">
+            <div class="card mt-3">
+                <div class="card-body">
+                    <p>Хелена Бонем Картер — выдающаяся английская актриса, признанная лауреатом кинопремии BAFTA 
+                    и двукратной номинанткой на премию «Оскар». Ее имя стало широко известно благодаря ведущим ролям 
+                    в экранизациях произведений Э. М. Форстера, таких как «Комната с видом», «Там, где даже ангелы 
+                    боятся появиться» и «Говардс-Энд», а также за роль Беллатрисы Лестрейндж в серии фильмов о Гарри Поттере.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <div class="sidebar">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link" href="#carousel" id="carousel">Карусель</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#films" id="films">Фильмы</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#actorInfoLink" id="actorInfoLink">Об актёре</a>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>
